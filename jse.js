@@ -6,7 +6,7 @@
  *	# direct onpage html editor
  *	#
  *
- *	(c) 2016 by Benjamin Kaufmann
+ *
  *
  */
 
