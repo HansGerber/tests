@@ -36,9 +36,9 @@
 				}
 				var _elem = this.parentNode.parentNode;
 				if(_elem.className.match(/jse-edit-activeElem/)){
-					_elem.className = _elem.className.replace("jse-edit-activeElem", "");
+					_elem.className = _elem.className.replace(" jse-edit-activeElem", "");
 				} else {
-					_elem.className += "jse-edit-activeElem";
+					_elem.className += " jse-edit-activeElem";
 				}
 			}
 			editPannel.appendChild(editButton);
