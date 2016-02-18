@@ -1,0 +1,23 @@
+/*
+ *
+ *	jse basic theme
+ *
+ */
+
+.jse-edit-panel {
+	display:inline-block;
+	padding:1px;
+	position:relative;
+}
+.jse-edit-panel .jse-edit-button {
+	cursor:pointer;
+	padding:2px 4px;
+	border:none;
+	background:#000;
+	color:#fff;
+	border-radius: 5px;
+}
+.jse-edit-activeElem {
+	border:solid 1px #000;
+	background:#ddd;
+}
