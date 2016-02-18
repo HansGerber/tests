@@ -7,7 +7,6 @@
  *	#
  *
  *
- *
  */
 
 (function(d, id){
@@ -19,7 +18,7 @@
 		if(!chElems[i].className.match(/^jse-edit-/)){
 			var editPannel = d.createElement("div");
 			editPannel.setAttribute("class", "jse-edit-panel");
-			var ePTitle = chElems[i].tagName;
+			var ePTitle = chElems[i].tagName.toLowerCase();
 			if(chElems[i].className && chElems[i].className.replace(" ", "").length > 0){
 				ePTitle += "." + chElems[i].className;
 			}
