@@ -9,10 +9,15 @@
  *
  */
 
-(function(d, id){
+(function(d, id, styleFileBase){
 
-	var chElems = document.getElementById(id).getElementsByTagName("*");
+	var chElems = d.getElementById(id).getElementsByTagName("*");
 	var chElemLen = chElems.length;
+	var jseCss = d.createElement("link");
+	jseCss.setAttribute("rel", "stylesheet");
+	jseCss.setAttribute("type", "text/css");
+	jseCss.setAttribute("href", styleFileBase + "jse.css");
+	d.getElementsByTagName("head")[0].appendChild(jseCss);
 	for(var i = 0;i<chElemLen;i++){
 		chElemLen = chElems.length;
 		if(!chElems[i].className.match(/^jse-edit-/)){
@@ -50,4 +55,4 @@
 		}
 	}
 
-})(document, "jse-container");
+})(document, "jse-container", "");
