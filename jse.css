@@ -18,6 +18,6 @@
 	border-radius: 5px;
 }
 .jse-edit-activeElem {
-	border:solid 1px #000;
-	background:#ddd;
+	border:solid 1px #000 !important;
+	background:#ddd !important;
 }
