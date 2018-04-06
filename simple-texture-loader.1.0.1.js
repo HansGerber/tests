@@ -1,4 +1,4 @@
-textureLoader = {
+var textureLoader = {
     then: function() {},
     load: function() {},
     loadCount: 0,
