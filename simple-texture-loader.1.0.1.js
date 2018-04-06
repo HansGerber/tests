@@ -11,7 +11,6 @@ textureLoader = {
         textureLoader.load = fLoad;
         for(var i = 0; i < arrTextures.length; i++){
             var loader = new Image();
-            textureLoader.currentTexture
             loader.onload = (function() {
                 textureLoader.loadCount++;
                 textureLoader.texturesOutput[this.currentTexture.name] = this.loader;
